@@ -1,0 +1,12 @@
+---
+  instances: 7
+  provider: virtualbox
+  name_prefix: server0
+  name_suffix: .flexsolutions.local
+  ip_prefix: 192.168.100.20
+  storage_devices: 2
+  disk_size: 20G
+  memory: 1024
+  cpus: 2
+  box: centos/7
+  path: bootstrap.sh
